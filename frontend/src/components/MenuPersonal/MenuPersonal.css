@@ -1,0 +1,33 @@
+.title-h1{
+    color: #005187;
+    padding: 3px 3px;
+    text-align: center;
+    font-weight: 1000;
+  }
+  
+  .title-h2{
+    padding: 3px 3px;
+    text-align: center;
+    font-weight: 800;
+  }
+
+
+
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+
+ 
+  /* Define colores alternados personalizados */
+.custom-table tbody tr:nth-child(odd) {
+  background-color: #f8f9fa; /* Color de fondo para filas impares */
+}
+.custom-table tbody tr:nth-child(even) {
+  background-color: #78b8f8; /* Color de fondo para filas pares */
+}
+
+  .button-S {
+    height: 60px;
+    width: 80px;
+  }
