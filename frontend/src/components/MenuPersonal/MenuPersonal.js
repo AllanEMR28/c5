@@ -9,14 +9,14 @@ import BootstrapTable from 'react-bootstrap-table-next';
 
 
 const columns = [
-    // Define tus columnas aquí
+    // Esta constante es para los titulos de las columnas
     { dataField: 'area', text: 'Área' },
     { dataField: 'cargo', text: 'Cargo' },
     { dataField: 'regimen', text: 'Regimen Laboral' },
   ];
 
   const data = [
-    // Define tus datos aquí
+    // Aqui es donde se ponen los datos
     { area: 'Área 1', cargo: 'Cargo 1', regimen: 'Regimen 1' },
     { area: 'Área 2', cargo: 'Cargo 2', regimen: 'Regimen 2' },
     { area: 'Área 3', cargo: 'Cargo 3', regimen: 'Regimen 3' },
@@ -30,7 +30,7 @@ const columns = [
     sizePerPageList: [
       { text: '3', value: 3 },
       { text: '5', value: 5 },
-      // Puedes ajustar las opciones según tus necesidades
+      // Estas opciones son las dos opciones a escoger para los datos que se quieren mostrar
     ],
   };
 
